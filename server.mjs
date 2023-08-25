@@ -11,7 +11,7 @@ app.use(express.json({ limit: '10mb' }));
 
 app.use("/recipes", recipes);
 
-// start the Express server
+// start the Express serve
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
 });
