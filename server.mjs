@@ -5,12 +5,12 @@ import recipes from "./routes/recipes.mjs";
 
 const PORT = process.env.PORT || 5050;
 const app = express(); 
-// const corsOptions = {
-//   //origin: "https://lindseyskitchen.com"
-// }
+const corsOptions = {
+  origin: "https://lindseyskitchen.onrender.com"
+}
 
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json({ limit: '10mb' }));
 
 app.use("/recipes", recipes);
