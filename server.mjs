@@ -6,7 +6,7 @@ import recipes from "./routes/recipes.mjs";
 const PORT = process.env.PORT || 5050;
 const app = express();
 const corsOptions = {
-  origin: "lindseyskitchen.com"
+  //origin: "https://lindseyskitchen.com"
 }
 
 
