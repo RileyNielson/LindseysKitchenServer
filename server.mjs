@@ -4,7 +4,7 @@ import "./loadEnvironment.mjs";
 import recipes from "./routes/recipes.mjs";
 
 const PORT = process.env.PORT || 5050;
-const app = express();
+const app = express(); 
 // const corsOptions = {
 //   //origin: "https://lindseyskitchen.com"
 // }
